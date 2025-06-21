@@ -92,3 +92,45 @@
 //         console.log('Learn javscript.');
 // }
 
+// let num = 30;
+// if (num%2==0 && num%3==0){
+//     console.log('Your age is divisible by 2 and 3');
+// }
+// else{
+//     console.log("Your age is not divisible by 2 and 3");
+// }
+// age = 12;
+// console.log((age>18)? 'Drive you punk' : 'Watch cocomelon.')
+
+
+// for (let i = 0; i < 5; i++){
+//     console.log(i)
+// }
+
+
+// let obj = {
+//     harry: 90,
+//     jithin: 99,
+//     himabi:9,
+// };
+
+
+// for (let a in obj){
+//     console.log("Marks of " + a + " are " + obj[a]);
+// }
+
+// let arr = ["a", "b", "c"];
+
+// for (let index in arr) {
+//     // index = "0", "1", "2" (as strings)
+//     // arr[index] = "a", "b", "c"
+//     console.log(index, arr[index]);
+//     console.log(typeof index);
+// }
+
+// let a = 22;
+// let i = 0
+// while (i < a){
+//     console.log(i);
+//     i++;
+// }
