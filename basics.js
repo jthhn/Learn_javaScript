@@ -253,3 +253,24 @@
 // let num = [551, 22, 3, 14, 5, 6, 7, 8, 299]
 // num.sort(compare)
 // console.log(num)
+
+
+// let num = [3, 5, 1, 2, 4];
+// 
+// num.forEach((element) =>{
+    // console.log(element * element)
+// })
+
+// let arr = [45, 23, 21]
+// arr.map((value) =>{
+    // console.log(value)
+// })
+// console.log(arr)
+
+
+let array = [];
+console.log(array);
+let add = 23;
+parseInt(add);
+array.push(add);
+console.log(array)
