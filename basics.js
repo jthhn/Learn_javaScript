@@ -288,8 +288,11 @@
 // })
 // console.log(n)
 
-let arr = [1,23,4,5,5,3]
-let n = arr.reduce((x1, x2) => {
-    return x1 * x2 ;
-});
-console.log(n)
+// let arr = [1,23,4,5,5,3]
+// let n = arr.reduce((x1, x2) => {
+//     return x1 * x2 ;
+// });
+// console.log(n)
+
+
+a = 

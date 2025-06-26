@@ -1,0 +1,22 @@
+{
+  "name": "learn_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthhn/Learn_javaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jthhn/Learn_javaScript/issues"
+  },
+  "homepage": "https://github.com/jthhn/Learn_javaScript#readme",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
+}
