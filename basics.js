@@ -294,5 +294,22 @@
 // });
 // console.log(n)
 
+const prompt = require("prompt-sync")();
 
-a = 
+max = 100;
+min = 1;
+chances = 0;
+number = parseInt(Math.random() * (max - min + 1)) + min;
+while (true) {
+    guess = prompt("Enter You guess:  ");
+    noOfGuess++
+    if (guess < number){
+        console.log("Your guess is lower than the random number! ");
+    }
+    if (guess > number){
+        console.log("Your guess is greater than the random number! ");
+    }
+    if (guess == number){
+        console.log(`Congratulations Your guess is correct within ${chances} attempt.`);
+    }
+}
