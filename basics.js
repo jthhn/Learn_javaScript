@@ -268,9 +268,28 @@
 // console.log(arr)
 
 
-let array = [];
-console.log(array);
-let add = 23;
-parseInt(add);
-array.push(add);
-console.log(array)
+// let array = [];
+// console.log(array);
+// let add = 23;
+// parseInt(add);
+// array.push(add);
+// console.log(array)
+
+
+// let arr = [551, 22, 3, 14, 5, 6, 7, 8, 299,10]
+// let n = arr.filter((a) =>{
+//     return a % 10 == 0
+// });
+// console.log(n)
+
+// let arr = [1,2,3,4,5,63,5];
+// let n = arr.map((x) => {
+//     return x * x
+// })
+// console.log(n)
+
+let arr = [1,23,4,5,5,3]
+let n = arr.reduce((x1, x2) => {
+    return x1 * x2 ;
+});
+console.log(n)
