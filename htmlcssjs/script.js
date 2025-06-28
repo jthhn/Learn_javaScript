@@ -24,24 +24,33 @@
 
 // console.log(window)
 
-const canDrive = (age) =>{
-   return (age >= 18)? true : false
+// const canDrive = (age) =>{
+//    return (age >= 18)? true : false
+// };
+
+// let runAgain = true;
+// while (runAgain){
+//     let age = prompt("Enter Your age");
+//     age = Number.parseInt(age);
+//     if (age<0){
+//         console.error("Please enter a valid age.")
+//         break;
+//     }
+//     if (canDrive(age)){
+//         alert('Yes you can drive')
+//     }
+//     else {
+//         alert('You cannot drive')
+//     } 
+//     runAgain = confirm('Do you want to again')
+// }
+
+
+const changeBgRed = () =>{
+    document.body.firstElementChild.style.background = 'Red';
 };
 
-let runAgain = true;
-while (runAgain){
-    let age = prompt("Enter Your age");
-    age = Number.parseInt(age);
-    if (age<0){
-        console.error("Please enter a valid age.")
-        break;
-    }
-    if (canDrive(age)){
-        alert('Yes you can drive')
-    }
-    else {
-        alert('You cannot drive')
-    } 
-    runAgain = confirm('Do you want to again')
-}
+let b = document.body
+console.log("First child of b is:", b.fistChild)
+console.log("first element of b is:",b.firstElementChild)
 
